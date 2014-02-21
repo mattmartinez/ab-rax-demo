@@ -1,0 +1,35 @@
+# Rax.io nginx Config File
+
+ upstream raxio {
+     server 127.0.0.1:3000;
+ }
+
+# Rails App
+server {
+    listen 80;
+    server_name raxio-ruby.lifted.io;
+    root /home/c0nsole/ab-rax-demo/Ruby/my-new-blog;
+    error_log /home/c0nsole/ab-rax-demo/Ruby/log/raxio-ruby.error.log;
+    access_log /home/c0nsole/ab-rax-demo/Ruby/log/raxio-ruby.access.log;
+    index index.html;
+        location / {
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header  Host $http_host;
+            proxy_redirect  off;
+        }
+        location @ruby {
+            proxy_pass http://raxio;
+        }
+}
+
+# Java App
+
+server {
+  listen 8080;
+  server_name raxio-java.lifted.io;
+  root /home/c0nsole/ab-rax-demo/Java/my-cool-blog;
+  error_log /home/c0nsole/ab-rax-demo/Java/log/raxio-java-error.log;
+  access_log /home/c0nsole/ab-rax-demo/Java/log/raxio-java-access.log;
+  index index.html;
+}
