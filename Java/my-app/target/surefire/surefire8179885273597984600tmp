@@ -1,0 +1,26 @@
+#surefire
+#Tue Feb 25 15:34:22 UTC 2014
+testClassesDirectory=/home/c0nsole/ab-rax-demo/Java/my-app/target/test-classes
+classPathUrl.4=/home/c0nsole/.m2/repository/io/airbrake/airbrake-java/2.2.8/airbrake-java-2.2.8.jar
+forkMode=once
+classPathUrl.3=/home/c0nsole/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+classPathUrl.2=/home/c0nsole/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar
+useManifestOnlyJar=true
+classPathUrl.1=/home/c0nsole/ab-rax-demo/Java/my-app/target/classes
+reportsDirectory=/home/c0nsole/ab-rax-demo/Java/my-app/target/surefire-reports
+classPathUrl.0=/home/c0nsole/ab-rax-demo/Java/my-app/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=/home/c0nsole/ab-rax-demo/Java/my-app/src/test/java
+surefireClassPathUrl.1=/home/c0nsole/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar
+surefireClassPathUrl.0=/home/c0nsole/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.10/surefire-junit4-2.10.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+includes0=**/Test*.java
+childDelegation=false
+classPathUrl.5=/home/c0nsole/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar

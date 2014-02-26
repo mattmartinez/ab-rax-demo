@@ -1,0 +1,5 @@
+#surefire
+#Tue Feb 25 15:34:22 UTC 2014
+user.dir=/home/c0nsole/ab-rax-demo/Java/my-app
+localRepository=/home/c0nsole/.m2/repository
+basedir=/home/c0nsole/ab-rax-demo/Java/my-app

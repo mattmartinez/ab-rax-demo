@@ -1,0 +1,26 @@
+#surefire
+#Wed Sep 11 21:32:53 UTC 2013
+testClassesDirectory=/home/java/my-app/target/test-classes
+classPathUrl.4=/root/.m2/repository/io/airbrake/airbrake-java/2.2.8/airbrake-java-2.2.8.jar
+forkMode=once
+classPathUrl.3=/root/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+classPathUrl.2=/root/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar
+useManifestOnlyJar=true
+classPathUrl.1=/home/java/my-app/target/classes
+reportsDirectory=/home/java/my-app/target/surefire-reports
+classPathUrl.0=/home/java/my-app/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=/home/java/my-app/src/test/java
+surefireClassPathUrl.1=/root/.m2/repository/org/apache/maven/surefire/surefire-api/2.10/surefire-api-2.10.jar
+surefireClassPathUrl.0=/root/.m2/repository/org/apache/maven/surefire/surefire-junit4/2.10/surefire-junit4-2.10.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+includes0=**/Test*.java
+childDelegation=false
+classPathUrl.5=/root/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar

@@ -1,0 +1,5 @@
+#surefire
+#Wed Sep 11 21:32:27 UTC 2013
+user.dir=/home/java/my-app
+localRepository=/root/.m2/repository
+basedir=/home/java/my-app
